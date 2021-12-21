@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 2%;
+    background-color:  #edf0f5;
+}
+.space{
+    margin-top: 12%;
+}
+#fb{
+    color:  #1877f2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+.lines{
+    font-size: 28px;
+    font-family: Arial;
+    line-height: 0px;
+    color: #1c1e21;
+    font-weight: 300;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+
+}
+.box{
+    border-radius: 10px;
+    margin-top: 30%;
+    box-shadow: 5px 5px 5px 5px #ffffff;
+    width: 380px;
+    height: 360px;
+    border: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+input, button{
+    margin-top: 20px;
+    font-size: large;
+    height: 40px;                                 
+    width: 330px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-color: #dddfe2;
+}
+#log{
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 91%;
+    border: none;
+    font-size: large;
+
+}
+hr{
+    color: #edf0f5;
+}
+#forget{
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#create{
+    background-color: #42b72a;
+    color: white;
+    font-weight: 700;
+    height: 48px;
+    width: 58%;
+    padding: 0 16px 0 16px;
+    margin-bottom: 50px;
+    border: none;
+    font-size: large;
+    display: inline block;
+    text-decoration: none solid rgb(255, 255, 255);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#page{
+    color: #1c1e21;
+    font-weight: 300;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+footer {
+    height: 30vh;
+    background-color: white;
+}
+
+.footer-contents {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+footer ol:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+footer ol:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+footer ol li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #385898;
+}
+footer ol li a {
+    text-decoration: none;
+    color: #385898;
+}
+footer small {
+    font-size: 11px;
+}
+
